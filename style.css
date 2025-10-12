@@ -1,0 +1,174 @@
+
+.navbar
+{
+    background-color: rgb(8, 32, 48);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.logo
+{
+  width: 50px;
+  height: 50px;
+  border-radius: 10%;
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+.nav-item
+{
+  color: white;
+}
+
+
+/* ===== Banner Section ===== */
+.banner {
+  background: url("assets/images/hospital-banner.jpg") center/cover no-repeat;
+  height: 100vh; /* Full-screen height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+ 
+}
+.banner h1{
+font-family: 'Poppins', sans-serif;
+}
+.banner p{
+    font-family: 'Open Sans Regular';
+}
+
+.banner a{
+   font-family: 'Open Sans Regular';
+   background-color: #0090b1;
+}
+
+/* Optional overlay (for better text contrast) */
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* dark overlay */
+}
+
+.banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+.banner h1, 
+.banner p {
+  color: #fff;
+}
+/* ===== Banner ===== */
+.banner {
+  background: url("assets/images/hospital-banner.jpg") center/cover no-repeat;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.6);
+}
+.banner .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* ===== Section Headings ===== */
+section h2 {
+  font-weight: 700;
+}
+
+/* ===== Footer Links Hover ===== */
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Home Section ===== */
+.HomeSection h2
+{
+  color: #015d72;
+  font-family: 'Poppins', sans-serif;
+}
+.HomeSection p{
+  font-family:'Open Sans Regular' ;
+
+}
+
+/* ===== Doctor Section ===== */
+.DoctorSection h2
+{
+  color: #015d72;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-img-top
+{
+  height: 500px;
+}
+.card-body h5{
+  font-family: 'Poppins', sans-serif;
+   color: #015d72;
+}
+.card-body p{
+ font-family: 'Open Sans Regular';
+}
+
+/* ===== Appointment Section ===== */
+.AppointmentSection h2{
+    color: #015d72;
+  font-family: 'Poppins', sans-serif;
+}
+.AppointmentSection .btn
+{
+      font-family: 'Open Sans Regular';
+   background-color: #0090b1;
+}
+
+/* ===== Patients Section ===== */
+.PatientSection  h2
+{
+      color: #015d72;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ===== Services Section ===== */
+
+.ServiceSection h2 
+{
+  color: #015d72;
+  font-family: 'Poppins', sans-serif;
+}
+.ServiceSection h5{
+   color: #015d72;
+  font-family: 'Poppins', sans-serif;
+
+}
+.ServiceSection p{
+  font-family: 'Open Sans Regular';
+}
+
+
+/* ===== Contact Section ===== */
+.ContactSection h2
+{
+  color: #015d72;
+  font-family: 'Poppins', sans-serif;
+}
+.ContactSection p
+{
+   font-family: 'Open Sans Regular';
+}
+
+/* ===== Footer Section ===== */
+footer
+{
+  background-color: rgb(8, 32, 48);
+}
+
