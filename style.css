@@ -171,4 +171,11 @@ footer
 {
   background-color: rgb(8, 32, 48);
 }
+.FooterSection p{
+  font-family: 'Open Sans Regular';
+}
+.FooterSection a{
+  margin-left: 5px;
+  margin-top: 10px;
+}
 
