@@ -107,10 +107,16 @@ footer a:hover {
   color: #015d72;
   font-family: 'Poppins', sans-serif;
 }
+.DoctorSection .card
+{
+  width: 350px;
+}
 
 .card-img-top
 {
-  height: 500px;
+  height: 400px;
+  background-color: rgba(204, 203, 203, 0.671);
+  
 }
 .card-body h5{
   font-family: 'Poppins', sans-serif;
@@ -118,6 +124,14 @@ footer a:hover {
 }
 .card-body p{
  font-family: 'Open Sans Regular';
+}
+.DoctorSection .card
+{
+  transition: transform 1s;
+}
+.DoctorSection .card:hover
+{
+  transform: scale(1.06);
 }
 
 /* ===== Appointment Section ===== */
@@ -131,12 +145,75 @@ footer a:hover {
    background-color: #0090b1;
 }
 
+
+.form1{
+  
+  padding: 40px;
+  width:1000px;
+  margin: 0px;
+   margin: 0 auto; 
+  border-radius: 35px;
+  font-family: 'Open Sans Regular';
+  background-image: url("assets/images/form.jpg");
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+.form1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6); /* white overlay with 60% opacity */
+  z-index: 0; /* keep behind the content */
+}
+.form1 * {
+  position: relative;
+  z-index: 1;
+}
+
+
+.form1 label
+{
+  font-weight: bold;
+  font-size: large;
+}
+.form-control
+{
+  height: 50px;
+  width: 420px;
+}
+.form-select
+{
+  height: 50px;
+  width: 420px;
+}
+
 /* ===== Patients Section ===== */
 .PatientSection  h2
 {
       color: #015d72;
   font-family: 'Poppins', sans-serif;
 }
+
+td
+{
+  font-family: 'Open Sans Regular';
+
+}
+#patients thead tr th {
+   background-color: #016379 !important;
+  color: white !important;
+  font-family: 'Poppins', sans-serif;
+}
+#patients tbody tr td:hover
+{
+  background-color: #79bece;
+}
+
 
 /* ===== Services Section ===== */
 
@@ -153,7 +230,14 @@ footer a:hover {
 .ServiceSection p{
   font-family: 'Open Sans Regular';
 }
-
+.ServiceSection .card
+{
+  transition: transform 1s;
+}
+.ServiceSection .card:hover
+{
+  transform: scale(1.1);
+}
 
 /* ===== Contact Section ===== */
 .ContactSection h2

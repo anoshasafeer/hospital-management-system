@@ -71,7 +71,7 @@
       <div class="row g-4">
         <div class="col-md-4">
           <div class="card shadow-sm">
-            <img src="assets/images/doctor1.jpg" class="card-img-top" alt="Doctor 1">
+            <img src="assets/images/doctor1.png" class="card-img-top" alt="Doctor 1">
             <div class="card-body">
               <h5 class="card-title">Dr. Ayesha Khan</h5>
               <p class="card-text text-muted">Cardiologist</p>
@@ -80,7 +80,7 @@
         </div>
         <div class="col-md-4">
           <div class="card shadow-sm">
-            <img src="assets/images/doctor2.jpg" class="card-img-top" alt="Doctor 2">
+            <img src="assets/images/doctor2.png" class="card-img-top" alt="Doctor 2">
             <div class="card-body">
               <h5 class="card-title">Dr. Sarah Ahmed</h5>
               <p class="card-text text-muted">Dermatologist</p>
@@ -89,7 +89,7 @@
         </div>
         <div class="col-md-4">
           <div class="card shadow-sm">
-            <img src="assets/images/doctor3.jpg" class="card-img-top" alt="Doctor 3">
+            <img src="assets/images/doctor3.png" class="card-img-top" alt="Doctor 3">
             <div class="card-body">
               <h5 class="card-title">Dr. Fatima Noor</h5>
               <p class="card-text text-muted">Pediatrician</p>
@@ -99,7 +99,7 @@
 
         <div class="col-md-4">
           <div class="card shadow-sm">
-            <img src="assets/images/doctor4.jpg" class="card-img-top" alt="Doctor 2">
+            <img src="assets/images/doctor4.png" class="card-img-top" alt="Doctor 2">
             <div class="card-body">
               <h5 class="card-title">Dr. Saad Qureshi</h5>
               <p class="card-text text-muted">Neurologists</p>
@@ -109,7 +109,7 @@
 
         <div class="col-md-4">
           <div class="card shadow-sm">
-            <img src="assets/images/doctor5.jpg" class="card-img-top" alt="Doctor 2">
+            <img src="assets/images/doctor5.png" class="card-img-top" alt="Doctor 2">
             <div class="card-body">
               <h5 class="card-title">Dr. Bilal Farooq</h5>
               <p class="card-text text-muted">Dentists</p>
@@ -119,7 +119,7 @@
 
         <div class="col-md-4">
           <div class="card shadow-sm">
-            <img src="assets/images/doctor6.jpg" class="card-img-top" alt="Doctor 2">
+            <img src="assets/images/doctor6.png" class="card-img-top" alt="Doctor 2">
             <div class="card-body">
               <h5 class="card-title">Dr. Hina Zafar</h5>
               <p class="card-text text-muted">Eye Specialists</p>
@@ -134,26 +134,33 @@
   <section id="appointments" class="py-5 bg-light">
     <div class="AppointmentSection  container">
       <h2 class="text-center mb-4 ">Book an Appointment</h2>
-      <form class="row g-3">
+      <form class="form1 row g-3" >
         <div class="col-md-6">
-          <input type="text" class="form-control" placeholder="Full Name" required>
+          <label for="name">Full Name</label>
+          <input type="text" id="name" class="form-control" placeholder="Enter your full name" required>
         </div>
         <div class="col-md-6">
-          <input type="email" class="form-control" placeholder="Email" required>
+          <label for="email">Email</label>
+          <input type="email" id="email" class="form-control" placeholder="Enter your email" required>
         </div>
         <div class="col-md-6">
-          <input type="tel" class="form-control" placeholder="Phone Number" required>
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" class="form-control" placeholder="Enter your phone no" required>
         </div>
         <div class="col-md-6">
-          <input type="date" class="form-control" required>
+          <label for="dob">Date Of Birth</label>
+          <input type="date" id="dob" class="form-control" required>
         </div>
         <div class="col-md-12">
-          <select class="form-select">
+          <label for="dep">Department</label>
+          <select class="form-select" id="dep">
             <option selected disabled>Select Department</option>
             <option>Cardiology</option>
             <option>Dermatology</option>
             <option>Pediatrics</option>
-            <option>Orthopedics</option>
+            <option>Neurology</option>
+            <option>Dentistry</option>
+            <option>Ophthalmology</option>
           </select>
         </div>
         <div class="col-12 text-center">
@@ -169,7 +176,7 @@
       <h2 class="text-center mb-4 ">Our Patients</h2>
       <div class="table-responsive">
         <table class="table table-bordered text-center">
-          <thead class="table-primary">
+          <thead class="custom-header">
             <tr>
               <th>ID</th>
               <th>Name</th>
@@ -211,7 +218,7 @@
           <div class="card shadow-sm p-4">
             <img src="assets/images/kid.jpg" alt="Pediatrics" width="300" height="200" class="mb-3 mx-auto">
             <h5>Pediatrics</h5>
-            <p>Compassionate care for children and newborns.</p>
+            <p>Compassionate and personalized care for children and newborns</p>
           </div>
         </div>
         <div class="col-md-4">
